@@ -5,6 +5,13 @@
     --accent2-color: #F5EBE0;
 }
 
+* {
+    margin: 0px;
+    flex-shrink: 0;
+}
+
+
+
 .hero {
     position: relative;
 }
@@ -40,15 +47,114 @@ article {
     padding: 20px;
     border-radius: 10px;
     color: var(--accent2-color);
-    
+}
+
+header {
+    display: grid;
+    grid-template-columns:  1fr  0.6fr;
+    background-color: var(--primary-color);
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul{
+    list-style: none;
+    display: inline-block;
+    display: flex;
+    gap: 50px;
+    margin-left: auto;
+}
+nav li a {
+    text-decoration: none;
+    color: black;
 
 }
+nav li a:hover {
+    color: tomato;
+    text-decoration: underline;
+}
+
+.logo {
+    padding: 10px 30px 10px 200px;
+}
+
+
 .hero article img {
     width: 100px;
     float: right;
     margin: 0 0 0 5px;
 
 }
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+}
+
+.section1 h2 {
+    text-align: center;
+}
+
+.content img {
+    width: 200px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content p {
+    flex: 1;
+}
+
+.content img {
+    margin: 0 auto;
+}
+
+.section2 {
+    text-align: center;
+}
+
+.section2a {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.section2 figure {
+    flex: 1 1 30%;
+    margin: 30px 20px 0 20px;
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    margin: auto;
+  }
+  
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+    margin: 0;
+  }
+
+.section2 img {
+    width: 200px;
+    padding: 0;
+    margin: 0%;
+}
+
 
 h2 {
     color: #D5BDAF;
@@ -74,6 +180,25 @@ section img {
     width: 500px;
 }
 
+footer {
+    display: flex;
+    background-color: var(--secondary-color);
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+
+
 .sociallinks img {
-    width: 40px;
+    width: 30px;
+}
+
+.sociallinks {
+    position: absolute;
+    left: 90%;
+}
+.sociallinks a {
+    text-decoration: none;
+    margin-left: auto;
 }
