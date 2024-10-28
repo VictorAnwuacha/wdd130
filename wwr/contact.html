@@ -29,7 +29,7 @@
 
 <main>
      <section class="company-info">
-          <h2>Contact Information</h2>
+          <h1>Contact Information</h1>
           <div class="company-info-a">
                <p>Address: 123 River Lane, Adventure Town, USA</p>|
                <p>Phone: +1 (123) 456-7890</p>|
@@ -65,31 +65,32 @@
           <form action="submit_form.php" method="post">
               <label for="name">Your Name:</label>
               <input type="text" id="name" name="name" required>
-
+      
               <label for="email">Your Email:</label>
               <input type="email" id="email" name="email" required>
-
+      
               <p>Purpose of Message:</p>
-              <label>
-                  <input type="radio" name="purpose" value="general-inquiry" required> General Inquiry
+              <label for="general-inquiry">
+                  <input type="radio" id="general-inquiry" name="purpose" value="general-inquiry" required> General Inquiry
               </label>
-              <label>
-                  <input type="radio" name="purpose" value="reservation-question"> Reservation Question
+              <label for="reservation-question">
+                  <input type="radio" id="reservation-question" name="purpose" value="reservation-question"> Reservation Question
               </label>
-              <label>
-                  <input type="radio" name="purpose" value="website-suggestion"> Website Suggestion
+              <label for="website-suggestion">
+                  <input type="radio" id="website-suggestion" name="purpose" value="website-suggestion"> Website Suggestion
               </label>
-
+      
               <label for="message">Your Message:</label>
               <textarea id="message" name="message" rows="5" required></textarea>
-
-              <label>
-                  <input type="checkbox" name="subscribe"> Please subscribe me to the monthly newsletter
+      
+              <label for="subscribe">
+                  <input type="checkbox" id="subscribe" name="subscribe"> Please subscribe me to the monthly newsletter
               </label>
-
+      
               <button type="submit">Send Message</button>
           </form>
       </section>
+      
 </main>
    <footer>
      <p>
