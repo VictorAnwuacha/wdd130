@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Us ">
+    <meta name="author" content="Victor Annwuacha">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <title>Whitewater Rafting Site | Contact Us </title>
+
+</head>
+<body>
+     <header>
+          <div class="logo">
+               <img src="images/roundlogo.png" alt="Our Logo" width="120">
+          </div>     
+          <nav>
+               <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="trips.html">Trips</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+               </ul>
+          </nav>
+     </header>
+
+<main>
+     <section class="company-info">
+          <h2>Contact Information</h2>
+          <div class="company-info-a">
+               <p>Address: 123 River Lane, Adventure Town, USA</p>|
+               <p>Phone: +1 (123) 456-7890</p>|
+               <p>Email: <a href="mailto:info@raftingadventures.com">info@raftingadventures.com</a></p>
+          </div>
+          <div class="map">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52961786.329385094!2d-161.8326839380127!3d35.88501095906176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited%20States!5e0!3m2!1sen!2sng!4v1730114130952!5m2!1sen!2sng" width="1250" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+      </section>
+  
+      <section class="employee-profiles">
+          <h2>Meet Our Team</h2>
+          <div class="parent-profile">
+               <div class="parent-profile-b">
+                    <div class="profile">
+                         <img src="images/Chloe.jpg" alt="Chloe James">
+                         <figcaption>Chloe James - Customer Support</figcaption>
+                    </div>
+                    <div class="profile">
+                         <img src="images/Michael.jpg" alt="Michael Smith">
+                         <figcaption>Michael Smith - Reservations Manager</figcaption>
+                    </div>
+                    <div class="profile">
+                         <img src="images/Rachael.jpg" alt="Rachael Johnson">
+                         <figcaption>Rachael Johnson - Marketing Coordinator</figcaption>
+                    </div>
+               </div>
+          </div>
+      </section>
+
+      <section class="contact-form">
+          <h2>Send Us a Message</h2>
+          <form action="submit_form.php" method="post">
+              <label for="name">Your Name:</label>
+              <input type="text" id="name" name="name" required>
+
+              <label for="email">Your Email:</label>
+              <input type="email" id="email" name="email" required>
+
+              <p>Purpose of Message:</p>
+              <label>
+                  <input type="radio" name="purpose" value="general-inquiry" required> General Inquiry
+              </label>
+              <label>
+                  <input type="radio" name="purpose" value="reservation-question"> Reservation Question
+              </label>
+              <label>
+                  <input type="radio" name="purpose" value="website-suggestion"> Website Suggestion
+              </label>
+
+              <label for="message">Your Message:</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+
+              <label>
+                  <input type="checkbox" name="subscribe"> Please subscribe me to the monthly newsletter
+              </label>
+
+              <button type="submit">Send Message</button>
+          </form>
+      </section>
+</main>
+   <footer>
+     <p>
+          &copy; 2024 Whitewater Rafting Company | Designed by Victor Uchechukwu Anwuacha | <a href="https://app.moqups.com/qOz9TmMmop51vZfDeb2e3ILkozrEvvyg/view/page/ad64222d5">WireFrame</a>
+      </p>
+     <nav class="sociallinks">
+          <a href="https://facebook.com">
+               <img src="images/facebook.png" alt="Facebook">
+          </a>
+          <a href="https://twitter.com">
+               <img src="images/twitter.png" alt="Twitter">
+          </a>
+          <a href="https://instgram.com">
+               <img src="images/instagram.png" alt="Instagram">
+          </a>
+     </nav>
+   </footer>
+</body>
+</html>
