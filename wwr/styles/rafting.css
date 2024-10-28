@@ -217,25 +217,20 @@ footer {
 }
 
 .employee-profiles{
-    display: flex;
-    flex-direction: column;
     text-align: center;
-}
-
-.parent-profiles {
-    display: flex;
-    flex-flow: column;
-    padding: 5px;
-    margin: auto;
+    padding: 20px;
 }
 
 .parent-profile-b {
     display: flex;
+    flex-direction: row;
     gap: 30px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
-.profile img {
+
+figure img {
     width: 300px;
 }
 
